@@ -1,0 +1,216 @@
+@import url(common.css);
+@import url(header.css);
+@import url(footer.css);
+
+html{font-size:100%;}
+
+/* 안드로이드는 정상적으로 되는데,
+IOS에서 글자크기가 자동으로 기본크기로 변경하는 기능을 해제하기 위해 사용함.
+->webkit 기본의 브라우저에서 텍스트 사이즈가 둘쑥날쑥 하지 않게 조절함.
+ */
+body{-webkit-text-size-adjust:100%;}
+
+#main_visual{
+	width:100%;
+	margin-top:50px;
+}
+
+/* ===== swiper1 ====== */
+
+.gallery1 {
+	overflow:hidden; 
+	position:relative; 
+	margin:0 auto; 
+	width:100%; 
+} 
+.swiper-wrapper .swiper-slide img{  /*가변이미지*/
+	width:100%; 
+	max-width:100%;
+}
+
+
+
+/* 하단버튼 */
+.gallery1 .nav1 { 
+	position: absolute; 
+	left:0px; 
+	bottom:20px; 
+	text-align: center;  
+	z-index: 10; 
+} 
+.gallery1 .nav1 .swiper-pagination-bullet { /* 버튼모양설정 */
+	background-color:#000; 
+	opacity:0.5; 
+	width:10px; 
+	height:10px; 
+	margin-left:5px; 
+	border-radius:50%; 
+} 
+.gallery1 .nav1 .swiper-pagination-bullet-active{  /* 메뉴on 설정(현재위치활성화) */
+	background-color:#59a7ff; 
+	width:25px; 
+	border-radius:15px;
+	opacity:1;
+}
+
+ /*Section ----------------------------------------------> */
+
+section{
+	width:100%;
+	position:relative;
+	margin:0 auto;
+	padding:50px 0;
+}
+
+h3{
+	width:100%;
+	font-size:30px;
+	font-size:1.875em;
+	font-weight:900;
+	text-align:center;
+	padding-bottom:30px;
+	padding-top:30px;
+}
+
+.con1 .con11{
+	width:70%;
+	height:auto;
+	margin:0 auto;
+}
+
+.con1 .con11 img{
+	width:100%;
+	max-width:100%;
+}
+.con1 .con11 h4{
+	font-size:20px;
+	padding-bottom:5px;
+	padding-top:5px;
+	color:#000;
+}
+.con1 .con11 p{
+	color:#333;
+	padding-bottom:60px;
+}
+
+.con1 .con12{
+	width:70%;
+	height:auto;
+	margin:0 auto;
+}
+
+.con1 .con12 img{
+	width:100%;
+	max-width:100%;
+}
+.con1 .con12 h4{
+	font-size:20px;
+	padding-bottom:5px;
+	padding-top:5px;
+	color:#000;
+}
+.con1 .con12 p{
+	color:#333;
+	padding-bottom:70px;
+}
+
+.con2{
+	width:100%;
+	height:auto;
+	margin:0 auto;
+	position:relative;
+}
+
+.con2 img{
+	height:80%;
+	width:100%;
+	max-width:100%;
+}
+
+.con2 h5{
+	position:absolute;
+	top:20px;
+	left:20px;
+	font-size:50px;
+	color:#fff;
+}
+
+.con2 hr{
+	position:absolute;
+	top:90px;
+	left:20px;
+	width:300px;
+	border:2px solid #fff;
+	margin:5px 0;
+}
+.con2 p{
+	position:absolute;
+	top:110px;
+	left:20px;
+	color:#fff;
+	font-size:20px;
+}
+
+.con2 img:last-child{
+	position:absolute;
+	top:60%;
+	left:9%;
+	width:80%;
+	height:auto;
+
+}
+
+
+.con3{
+	width:100%;
+	height:auto;
+	position:relative;
+	margin:100px auto 0px;
+	padding:20px 0;
+	background:#f2f2f2;
+
+}
+
+.con3 ul{
+	width:90%;
+	margin:0 auto;
+	border-top:3px solid #999;
+}
+
+.con3 ul li{
+
+	cursor:pointer;
+	height:50px;
+	border-bottom:1px solid #666;
+	padding:15px 0 20px 5px;
+}
+
+.con3 ul li .con2tt{
+	padding-bottom:10px;
+	font-weight:bold;
+}
+
+.con3 ul li span{color:#666;}
+
+.btn2{
+	width:90%;
+	margin:0 auto;
+	text-align:center;
+	margin-top:50px;
+	padding:10px;
+	border:1px solid #000;
+	margin-bottom:50px;
+}
+.btn2 a{
+	width:100%;
+	height:100%;
+	text-align:center;
+	padding:10px;
+	font-size:20px;
+	cursor:pointer;
+	color:#000;
+}
+.btn2:hover a{ color:#fff;}
+
+.btn2:hover{background:#000;}
+

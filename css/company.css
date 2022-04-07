@@ -1,0 +1,17 @@
+@import url(common.css);
+@import url(header.css);
+@import url(footer.css);
+
+html{font-size:100%;}
+
+/* 안드로이드는 정상적으로 되는데,
+IOS에서 글자크기가 자동으로 기본크기로 변경하는 기능을 해제하기 위해 사용함.
+->webkit 기본의 브라우저에서 텍스트 사이즈가 둘쑥날쑥 하지 않게 조절함.
+ */
+body{-webkit-text-size-adjust:100%;}
+
+section{
+	color:red;
+}
+
+
